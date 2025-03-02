@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- SECTION ACCUEIL -->
+    <div id="accueil" class="w-full sm:h-screen h-full bg-black">
+        <div class="w-full h-fit bg-[url('https://images.unsplash.com/photo-1607798748738-b15c40d33d57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8Y29kZXxlbnwwfDB8fHwxNzMyNzk1MjA5fDA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center bg-no-repeat">
+            <header class="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg bg-black/60">
+                <div class="flex-1 flex justify-between items-center">
+                    <a href="#accueil" class="text-3xl font-semibold font-serif text-green-400">SEYDOU</a>
+                </div>
+                <label for="menu-toggle" class="pointer-cursor md:hidden block">
+                    <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    </svg>
+                </label>
+                <input class="hidden" type="checkbox" id="menu-toggle" />
+                <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+                    <nav>
+                        <ul class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
+                            <li><a class="md:p-4 py-3 px-0 block text-green-500 hover:text-green-500" href="#accueil">Accueil</a></li>
+                            <li><a class="md:p-4 py-3 px-0 block hover:text-green-500" href="#about">À propos</a></li>
+                            <li><a class="md:p-4 py-3 px-0 block hover:text-green-500" href="#experience">Expériences</a></li>
+                            <li><a class="md:p-4 py-3 px-0 block hover:text-green-500 md:mb-0 mb-2" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="w-full h-full relative top-10 pb-20">
+                <div class="lg:px-16 px-8 flex sm:flex-row flex-col flex-col-reverse gap-6 justify-center items-center">
+                    <div class="sm:text-left text-center text-white">
+                        <h4 class="sm:text-2xl text-3xl font-semibold w-fit bg-gray-900/40 p-3">Bonjour je M'appel
+                            <span class="text-green-500 sm:text-2xl text-xl font-serif">Seydou Sankhare</span>
+                        </h4>
+                        <h1 class="mt-4 sm:text-4xl text-2xl">Je suis
+                            <span class="typing libre-baskerville-bold text-green-500"></span>
+                        </h1>
+                        <p class="mt-4 text-lg capitalize">
+                            Développeur web expérimenté avec plus de 2 ans d'expertise en HTML, CSS, JavaScript, ainsi qu'en développement front-end et back-end.</p>
+                        <div class="mt-6 flex sm:flex-row flex-col gap-4 sm:justify-start justify-center">
+      
+                            <a href="cv.jpg" download class="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-yellow-500 hover:bg-yellow-600 transition ease-in-out delay-150">
+                                Télécharger le CV
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <img class="md:max-w-[30%] sm:max-w-[40%] max-w-[70%] sm:rounded-sm sm:rounded-br-[5rem] sm:rounded-tl-[5rem] rounded-full sm:outline-none outline outline-[.3rem] outline-green-400/60" src="mes photo/2.jpg" alt="My Pic" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION À PROPOS -->
+    <div id="about" class="sm:flex items-center max-w-screen-xl">
+        <div class="sm:w-1/2 p-10">
+            <div class="image object-center text-center">
+                <img src="mes photo/propos.png">
+            </div>
+        </div>
+        <div class="sm:w-1/2 p-5">
+            <h2 class="my-4 font-bold text-3xl sm:text-4xl">À propos <span class="text-emerald-600">de moi</span></h2>
+
+            <p class="text-gray-700">
+Bonjour, je suis <em>Seydou Sankhare</em>, passionné par le développement web. Depuis 2022, je crée des sites internet et des applications en utilisant des technologies modernes comme HTML, CSS, JavaScript Typescript et des frameworks populaires. Mon objectif est de concevoir des expériences utilisateur intuitives et fonctionnelles, tout en restant à l’écoute des besoins spécifiques de mes clients. N’hésitez pas à me contacter pour discuter de vos projets et voir comment je peux vous aider à réaliser votre vision en ligne !
+
+
+
+            </p>
+        </div>
+    </div>
+
+    <!-- SECTION EXPÉRIENCES -->
+    <section id="experience">
+        <div class="w-full dark:bg-gray-800 dark:text-white">
+            <div class="w-full md:w-3/5 mx-auto py-12 md:py-24">
+                <div class="w-full flex flex-col text-center">
+                    <h1 class="text-4xl md:text-5xl font-semibold text-gray-800 dark:text-white">
+                        MES <span class="text-emerald-600"> EXPÉRIENCES</span>
+                    </h1>
+                    <p class="w-full px-[12%] mb-3 text-base md:text-xl text-gray-500">
+                        Voici un aperçu de mon parcours et de mes compétences techniques acquises au fil des années.
+                    </p>
+                </div>
+                <div class="flex flex-col md:flex-row px-2 md:px-6 md:pt-18 dark:text-white mt-8">
+                    <div class="w-full md:w-1/4 border-b border-gray-200 dark:border-gray-700 md:border-b-0 md:border-r md:border-gray-200 items-center text-center px-8 py-5 flex flex-col">
+                        <img src="mes photo/html.png" class="h-24 w-24" alt="Web Development" />
+                        <h1 class="mt-4 font-semibold text-gray-500 dark:text-white text-2xl">language de balisage</h1>
+                        <p class="text-gray-500 dark:text-gray-400">HTML signifie HyperText Markup Language (langage de balisage hypertexte). j'utilise ce langage standard utilisé pour créer et structurer des pages web..</p>
+                    </div>
+                    <div class="w-full md:w-1/4 border-b border-gray-200 dark:border-gray-700 md:border-b-0 md:border-r md:border-gray-200 items-center text-center px-8 py-5 flex flex-col">
+                        <img src="mes photo/css.png" class="h-24 w-24" alt="Mobile Development" />
+                        <h1 class="mt-4 font-semibold text-gray-500 dark:text-white text-2xl">la décoration</h1>
+                        <p class="text-gray-500 dark:text-gray-400">CSS signifie Cascading Style Sheets (feuilles de style en cascade). j'utilise ce langage  pour décrire la présentation et la mise en forme d'un document HTML. CSS permet de contrôler l'apparence des éléments web, comme les couleurs .</p>
+                    </div>
+                    <div class="w-full md:w-1/4 border-b border-gray-200 dark:border-gray-700 md:border-b-0 md:border-r md:border-gray-200 items-center text-center px-8 py-5 flex flex-col">
+                        <img src="mes photo/java.png" class="h-24 w-24" alt="Database Management" />
+                        <h1 class="mt-4 font-semibold text-gray-500 dark:text-white text-2xl">fonctionnalités dynamiques</h1>
+                        <p class="text-gray-500 dark:text-gray-400">JavaScript (souvent abrégé en JS) j'utilise ce langage pour ajouter de l'interactivité et des fonctionnalités dynamiques aux pages web. Contrairement à HTML (pour la structure) et CSS (pour le style), .</p>
+                    </div>
+                    <div class="w-full md:w-1/4 border-gray-200 dark:border-gray-700 items-center text-center px-8 py-5 flex flex-col">
+                        <img src="mes photo/typescrip.png" class="h-24 w-24" alt="Project Management" />
+                        <h1 class="mt-4 font-semibold text-gray-500 dark:text-white text-2xl">fonctionnalités supplémentaires à JavaScript</h1>
+                        <p class="text-gray-500 dark:text-gray-400">TypeScript est un sur-ensemble de JavaScript (souvent abrégé en TS) développé par Microsoft.je l'utilise pour ajoute des fonctionnalités supplémentaires à JavaScript, notamment le typage statique,  .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <div id="contact" class="p-8 mt-8 max-w-lg mx-auto">
+        <h1 class="text-4xl text-emerald-600 sm:text-4xl font-bold mb-4">Contact</h1>
+
+        <form>
+            <div class="p-2 w-full">
+                <label for="name" class="leading-7 py-4 text-lg text-gray-900">Nom</label>
+                <input type="text" id="name" name="name" required class="w-full bg-white rounded border border-gray-400">
+            </div>
+            <div class="p-2 w-full">
+                <label for="email" class="leading-7 py-4 text-lg text-gray-900">Email</label>
+                <input type="email" id="email" name="email" required class="w-full bg-white rounded border border-gray-400">
+            </div>
+            <div class="p-2 w-full">
+                <label for="message" class="leading-7 py-4 text-lg text-gray-900">Message</label>
+                <textarea id="message" name="message" required class="w-full bg-white rounded border border-gray-400 h-32"></textarea>
+            </div>
+            <div class="p-2 w-full">
+                <button type="submit" class="flex text-white bg-emerald-600 border-0 py-3 px-6 rounded text-xl font-bold">
+
+                    Envoyer
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- SCRIPT POUR SCROLL FLUIDE -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute("href").substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
